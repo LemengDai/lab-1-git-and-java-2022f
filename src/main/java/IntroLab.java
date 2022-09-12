@@ -49,9 +49,14 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String dailemen() {
+        return printLabMessage("Hello", "Lemeng Dai", false, "I'm excited for CSC207!");
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(dailemen());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
