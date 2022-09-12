@@ -44,10 +44,6 @@ public class IntroLab {
     /**
      * An example method that calls on printLabMessage.
      */
-    public static String exampleStudent() {
-        return printLabMessage("Hello", "Stu Dent", true,
-                "Welcome to CSC207!");
-    }
 
     public static String dailemen() {
         return printLabMessage("Hello", "Lemeng Dai", false, "I'm excited for CSC207!");
@@ -55,7 +51,6 @@ public class IntroLab {
 
 
     public static void main(final String[] args) {
-        System.out.println(exampleStudent());
         System.out.println(dailemen());
 
         /* TODO: Add a call to the method you wrote in this main method,
